@@ -6,6 +6,8 @@ import History from "./History.js";
 
 const API = 'http://taskmaster-env.3nz9fretef.us-west-2.elasticbeanstalk.com/api/v1/tasks';
 
+// resources: https://github.com/codefellows/seattle-java-401d5/tree/master/class-28/demo/api-frontend
+
 function App() {
 
   const [tasks, setTasks] = useState([]);
